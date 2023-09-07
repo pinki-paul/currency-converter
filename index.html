@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Currency Convertor</title>
+     <link rel="stylesheet" type="text/css" href="currency.css">   
+    </head>
+    
+    <body>
+        
+        <div class="container">
+            <h1 class="heading">Currency Convertor</h1>
+            
+            <div class="currency-container">    
+            <label for="rupee">Rupee(INR):</label>
+            <input onchange="computeCurrency(event)" type="number" name="rupee" id="rupee" class="input" placeholder="Enter Value">
+          </div>
+            
+              <div class="currency-container">
+             <label for="dollar">Dollar(USD):</label>
+            <input onchange="computeCurrency(event)" type="number" name="dollar" id="dollar" class="input" placeholder="Enter Value">
+            </div>
+            
+              <div class="currency-container">
+             <label for="rubel">Rubel(RUB):</label>
+            <input onchange="computeCurrency(event)" type="number" name="rubel" id="rubel" class="input" placeholder="Enter Value">
+            </div>
+            
+              <div class="currency-container">
+             <label for="pound">Pound(GBP):</label>
+            <input onchange="computeCurrency(event)" type="number" name="pound" id="pound" class="input" placeholder="Enter Value">
+             </div>
+        
+        </div>
+        
+        <script src="currency.js"></script>
+    </body>
+    
+</html>
+        
